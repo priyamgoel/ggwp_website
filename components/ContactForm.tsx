@@ -89,14 +89,14 @@ export default function ContactForm() {
   return (
     <div id="contact" className="max-w-lg mx-auto">
       {submitStatus && (
-        <div className={`p-4 mb-4 rounded ${submitStatus.success ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+        <div className={`p-4 mb-4 rounded ${submitStatus.success ? 'bg-green-900 text-green-300' : 'bg-red-900 text-red-300'}`}>
           {submitStatus.message}
         </div>
       )}
       
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
             Name
           </label>
           <input
@@ -106,14 +106,14 @@ export default function ContactForm() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="form-input"
+            className="form-input bg-gray-800 border-gray-700 text-white"
             placeholder="Your name"
             disabled={isSubmitting}
           />
         </div>
         
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
             Email
           </label>
           <input
@@ -123,14 +123,14 @@ export default function ContactForm() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="form-input"
+            className="form-input bg-gray-800 border-gray-700 text-white"
             placeholder="your.email@example.com"
             disabled={isSubmitting}
           />
         </div>
         
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
             Message
           </label>
           <textarea
@@ -140,7 +140,7 @@ export default function ContactForm() {
             onChange={handleChange}
             required
             rows={5}
-            className="form-input"
+            className="form-input bg-gray-800 border-gray-700 text-white"
             placeholder="Your message here..."
             disabled={isSubmitting}
           />

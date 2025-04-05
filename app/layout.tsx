@@ -24,7 +24,7 @@ export default function RootLayout({
         {/* Additional favicon for older browsers */}
         <link rel="shortcut icon" href="/favicon.ico" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-black text-white`}>{children}</body>
     </html>
   )
 }
