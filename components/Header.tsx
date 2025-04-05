@@ -6,16 +6,18 @@ export default function Header() {
     <header className="bg-black shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          {/* Using the existing image file in the public directory - with larger dimensions */}
-          <div className="relative w-24 h-16">
-            <Image 
-              src="/ChatGPT Image Apr 4, 2025, 05_10_45 PM.png" 
-              alt="GGWP Logo" 
-              fill
-              style={{ objectFit: 'contain' }}
-              priority
-            />
-          </div>
+          {/* Logo with link to homepage */}
+          <Link href="/">
+            <div className="relative w-24 h-16">
+              <Image 
+                src="/ChatGPT Image Apr 4, 2025, 05_10_45 PM.png" 
+                alt="GGWP Logo" 
+                fill
+                style={{ objectFit: 'contain' }}
+                priority
+              />
+            </div>
+          </Link>
         </div>
         
         <nav>
