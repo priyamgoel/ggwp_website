@@ -1,0 +1,19 @@
+#Person1
+Name : Priyam Goel
+LinkedIn : https://www.linkedin.com/in/priyam-goel-b517652b0/
+GitHub : https://github.com/priyamgoel
+
+#Person2
+Name : Krishiv Garg
+LinkedIn : https://www.linkedin.com/in/krishiv-garg-6a7937322/
+GitHub : https://github.com/KrishivGarg
+
+#Person3
+Name : Harshit Goyal
+LinkedIn : https://www.linkedin.com/in/harshit-goyal-95aa1a206/
+GitHub :  https://github.com/priyamgoel
+
+#Person4
+Name : Mani Gemini
+LinkedIn : https://www.linkedin.com/in/mani-gemini-13596635a
+GitHub : https://github.com/priyamgoel

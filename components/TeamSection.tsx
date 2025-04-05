@@ -1,14 +1,14 @@
 import MemberCard from './MemberCard';
 
 export default function TeamSection() {
-  // Updated team member data with real information
+  // Updated team member data with information from team_member_info.txt
   const teamMembers = [
     {
       id: 1,
       name: 'Priyam Goel',
       role: 'Team Member',
-      image: 'https://ui-avatars.com/api/?name=Priyam+Goel&background=4338ca&color=fff&size=150',
-      github: '#',
+      image: '/person1_priyamgoel_profile_photo.jpg', // Using the actual profile photo
+      github: 'https://github.com/priyamgoel',
       instagram: '#',
       linkedin: 'https://www.linkedin.com/in/priyam-goel-b517652b0/'
     },
@@ -17,7 +17,7 @@ export default function TeamSection() {
       name: 'Krishiv Garg',
       role: 'Team Member',
       image: 'https://ui-avatars.com/api/?name=Krishiv+Garg&background=4338ca&color=fff&size=150',
-      github: '#',
+      github: 'https://github.com/KrishivGarg',
       instagram: '#',
       linkedin: 'https://www.linkedin.com/in/krishiv-garg-6a7937322/'
     },
@@ -26,7 +26,7 @@ export default function TeamSection() {
       name: 'Harshit Goyal',
       role: 'Team Member',
       image: 'https://ui-avatars.com/api/?name=Harshit+Goyal&background=4338ca&color=fff&size=150',
-      github: '#',
+      github: 'https://github.com/priyamgoel',
       instagram: '#',
       linkedin: 'https://www.linkedin.com/in/harshit-goyal-95aa1a206/'
     },
@@ -35,9 +35,9 @@ export default function TeamSection() {
       name: 'Mani Gemini',
       role: 'Team Member',
       image: 'https://ui-avatars.com/api/?name=Mani+Gemini&background=4338ca&color=fff&size=150',
-      github: '#',
+      github: 'https://github.com/priyamgoel',
       instagram: '#',
-      linkedin: '#'
+      linkedin: 'https://www.linkedin.com/in/mani-gemini-13596635a'
     },
   ];
 
